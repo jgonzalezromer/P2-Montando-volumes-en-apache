@@ -1,7 +1,9 @@
 # P2-Montando-volumes-en-apache
 
 ## 1- Comproba que a tes a imaxe httpd
-Para comprobar que temos a imaxe utilizamos o comando `docker images | grep "httpd"`, nunha terminal.
+Para comprobar que temos a imaxe utilizamos o comando:
+```docker images | grep "httpd"```
+nunha terminal.
 
 ## | 2- Crea un contenedor de nome 'asir_httpd'.
 ## | 3- Mapea o porto 80 do contenedor có 8080 da túa máquina. Utiliza bind mount para que o directorio do apache2 'htdocs' estea montado nun directorio da túa elección.
