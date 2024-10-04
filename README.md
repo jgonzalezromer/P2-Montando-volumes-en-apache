@@ -2,7 +2,9 @@
 
 ## 1- Comproba que a tes a imaxe httpd
 Para comprobar que temos a imaxe utilizamos o comando:
-``` docker images | grep "httpd" ```
+``` 
+docker images | grep "httpd"
+```
 
 nunha terminal.
 
