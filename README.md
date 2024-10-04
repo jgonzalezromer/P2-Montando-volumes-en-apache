@@ -5,7 +5,7 @@ Para comprobar que temos a imaxe utilizamos o comando `docker images | grep "htt
 
 ## | 2- Crea un contenedor de nome 'asir_httpd'.
 ## | 3- Mapea o porto 80 do contenedor có 8080 da túa máquina. Utiliza bind mount para que o directorio do apache2 'htdocs' estea montado nun directorio da túa elección.
-Para facer un contenedor de nome **asir_httpd**, co porto 8080 utilizaremos o comando `docker run -d --name asir_httpd -p 8080:80 -v "$PWD"/htdocs:/usr/local/apache2/htdocs/ httpd`
+Para facer un contenedor`#0969DA` de nome **asir_httpd**, co porto 8080 utilizaremos o comando `docker run -d --name asir_httpd -p 8080:80 -v "$PWD"/htdocs:/usr/local/apache2/htdocs/ httpd`
 
 ## 4- Mostra unha páxina html aloxada no apache2 dende o teu navegador.
 Agora deberemos poñer na carpeta htdocs do directorio persoal un arquivo html, logo se vamos a un buscador como pode ser firefox e buscamos **localhost:8080** aparecerá o html feito anteriormente
