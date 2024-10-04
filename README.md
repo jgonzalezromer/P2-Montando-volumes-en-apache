@@ -30,3 +30,5 @@ Para facer outro contenedor podremos reutilizar casi todo o comando anterior cam
 docker run -d --name asir_web2 -p 8090:80 -v "$PWD"/htdocs:/usr/local/apache2/htdocs/ httpd
 ```
 ---
+
+Si se quere seguir a práctica con imaxes disponse de un [documento de google coas correspondientes a esta práctica.](https://docs.google.com/document/d/1JjZTZpzPrML2Du8_QKkJ9bZfxIuSsg1YlAKqfeSAPzI/edit?usp=sharing)
