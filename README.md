@@ -16,7 +16,8 @@ docker run -d --name asir_httpd -p 8080:80 -v "$PWD"/htdocs:/usr/local/apache2/h
 ```
 ---
 ## 4- Mostra unha páxina html aloxada no apache2 dende o teu navegador.
-Agora deberemos poñer na carpeta htdocs do directorio persoal un arquivo html, logo se vamos a un buscador como pode ser firefox e buscamos **localhost:8080** aparecerá o html feito anteriormente
+Agora deberemos poñer na carpeta htdocs do directorio persoal un arquivo html, logo se vamos a un buscador como pode ser firefox e buscamos **localhost:8080** aparecerá o html feito anteriormente.
+
 ---
 ## 5- Crea un contenedor 'asir_web1' que use este mesmo directorio para 'htdocs' e o puerto 8000
 Para facer outro contenedor podremos reutilizar casi todo o comando anterior cambiando algunhas cousas, quedaría 
